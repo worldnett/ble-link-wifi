@@ -1,0 +1,52 @@
+<server-configuration name="Sample configuration">
+   <service configure="HEART_RATE"/>
+   <service name="Disabled service" enabled="false" uuid="0000D15A-0000-1000-8000-AABBCCDDEEFF"/>
+   <service name="Test Service" uuid="0000AAA0-0000-1000-8000-AABBCCDDEEFF">
+      <characteristic name="Value" id="some-id" uuid="0000AAA1-0000-1000-8000-AABBCCDDEEFF" value="1E00">
+         <descriptor configure="CCCD"/>
+         <descriptor name="Custom Descriptor" id="some-id-2" uuid="0000AAB0-0000-1000-8000-AABBCCDDEEFF" value="01233456789A">
+            <permission name="READ"/>
+            <permission name="WRITE"/>
+         </descriptor>
+         <descriptor uuid="00002901-0000-1000-8000-00805f9b34fb" value-string="Important value">
+            <permission name="READ"/>
+         </descriptor>
+         <descriptor uuid="00002904-0000-1000-8000-00805f9b34fb" value="06000127010001">
+            <permission name="READ"/>
+         </descriptor>
+         <permission name="READ"/>
+         <property name="READ"/>
+         <property name="NOTIFY"/>
+      </characteristic>
+      <characteristic name="Value Control Point" uuid="0000AAA2-0000-1000-8000-AABBCCDDEEFF">
+         <descriptor configure="CCCD"/>
+         <permission name="WRITE"/>
+         <property name="WRITE"/>
+         <property name="WRITE_WITHOUT_RESPONSE"/>
+         <property name="INDICATE"/>
+      </characteristic>
+   </service>
+   <service uuid="0000181C-0000-1000-8000-00805f9b34fb">
+      <characteristic uuid="00002A8A-0000-1000-8000-00805f9b34fb" value-string="Natenczas">
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+      </characteristic>
+      <characteristic uuid="00002A90-0000-1000-8000-00805f9b34fb" value-string="Wojski">
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+      </characteristic>
+      <characteristic uuid="00002A8C-0000-1000-8000-00805f9b34fb" value="00">
+         <permission name="READ"/>
+         <permission name="WRITE"/>
+         <property name="READ"/>
+         <property name="WRITE"/>
+      </characteristic>
+   </service>
+   <service configure="HEART_RATE"/>
+   <service configure="LINK_LOSS"/>
+   <service configure="CURRENT_TIME"/>
+</server-configuration>

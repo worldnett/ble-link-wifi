@@ -1,0 +1,401 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://www.bluetooth.com/specifications/assigned-numbers/mesh-profile/cdb-schema.json#",
+  "version": "1.0.0",
+  "meshUUID": "1A2D4981-DA21-4B2E-987E-506959DF270A",
+  "meshName": "nRF Mesh Network",
+  "timestamp": "2021-12-10T10:24:18-08:00",
+  "partial": false,
+  "netKeys": [
+    {
+      "name": "Network Key 1",
+      "index": 0,
+      "key": "2DB54A01746F759D5BB261487DEA23C3",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-09T19:28:26-08:00"
+    },
+    {
+      "name": "Network Key 2",
+      "index": 1,
+      "key": "DD62A9401697383DAA8D2533F164BA15",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-09T19:30:55-08:00"
+    },
+    {
+      "name": "Network Key 3",
+      "index": 2,
+      "key": "434C45378B1AC6297070B409C6408D4D",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-09T19:30:59-08:00"
+    },
+    {
+      "name": "Network Key 4",
+      "index": 3,
+      "key": "CE287D6532F77DFB5D43F170EC753CB5",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:46-08:00"
+    },
+    {
+      "name": "Network Key 5",
+      "index": 4,
+      "key": "3B884DB35B117BC594DC175A28FC1051",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:48-08:00"
+    },
+    {
+      "name": "Network Key 6",
+      "index": 5,
+      "key": "A6E207B3305916BE7B59D16210BAE4DA",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:50-08:00"
+    },
+    {
+      "name": "Network Key 7",
+      "index": 6,
+      "key": "A96857DDC3A3C43BF2969F7FA78FBAC4",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:51-08:00"
+    },
+    {
+      "name": "Network Key 8",
+      "index": 7,
+      "key": "1772393659CF87A9AEA59D6F75A6AFA9",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:53-08:00"
+    },
+    {
+      "name": "Network Key 9",
+      "index": 8,
+      "key": "ACFC8F37B83B29DED0DA11017F505467",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:54-08:00"
+    },
+    {
+      "name": "Network Key 10",
+      "index": 9,
+      "key": "7BBCD0BE86128303003DBA8A072B0F35",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:22:56-08:00"
+    },
+    {
+      "name": "Network Key 11",
+      "index": 10,
+      "key": "8F57F3619D553A7BE4646EBD0A74FEDB",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:23:55-08:00"
+    },
+    {
+      "name": "Network Key 12",
+      "index": 11,
+      "key": "CBD491EF527FE2EBBF8F55A73AA52C97",
+      "phase": 0,
+      "minSecurity": "insecure",
+      "timestamp": "2021-12-10T10:24:17-08:00"
+    }
+  ],
+  "appKeys": [
+    {
+      "name": "Application Key 1",
+      "index": 0,
+      "boundNetKey": 0,
+      "key": "AD0A5D009C951CD156ED21CB7B9123DD"
+    },
+    {
+      "name": "Application Key 2",
+      "index": 1,
+      "boundNetKey": 0,
+      "key": "02B9CAD4450B4073AF1F08F0DAD80956"
+    },
+    {
+      "name": "Application Key 3",
+      "index": 2,
+      "boundNetKey": 0,
+      "key": "0875ED4644265B45493468C005B9BF10"
+    },
+    {
+      "name": "Application Key 4",
+      "index": 3,
+      "boundNetKey": 0,
+      "key": "9DA0A3FEAC09816EB76D49A28808D0A1"
+    },
+    {
+      "name": "Application Key 5",
+      "index": 4,
+      "boundNetKey": 0,
+      "key": "318416C49F301FB29C81EC4000728714"
+    },
+    {
+      "name": "Application Key 6",
+      "index": 5,
+      "boundNetKey": 0,
+      "key": "AC808B72B50782A8E8C19B6C07130891"
+    },
+    {
+      "name": "Application Key 7",
+      "index": 6,
+      "boundNetKey": 0,
+      "key": "94C331C417369D0B427F17835EDE0038"
+    },
+    {
+      "name": "Application Key 8",
+      "index": 7,
+      "boundNetKey": 0,
+      "key": "110D9AF56E1D565077B2F237F7937B4B"
+    },
+    {
+      "name": "Application Key 9",
+      "index": 8,
+      "boundNetKey": 0,
+      "key": "C5F88C1DBC600DF8D175472EFC224E80"
+    },
+    {
+      "name": "Application Key 10",
+      "index": 9,
+      "boundNetKey": 0,
+      "key": "42F6093CA0BE9F669FB19D21480D3EBE"
+    }
+  ],
+  "provisioners": [
+    {
+      "provisionerName": "nRF Mesh Provisioner",
+      "UUID": "6AD95587-AF4C-4F28-977B-340C2CE4D503",
+      "allocatedUnicastRange": [
+        {
+          "lowAddress": "0001",
+          "highAddress": "199A"
+        }
+      ],
+      "allocatedGroupRange": [
+        {
+          "lowAddress": "C000",
+          "highAddress": "CC9A"
+        }
+      ],
+      "allocatedSceneRange": [
+        {
+          "firstScene": "0001",
+          "lastScene": "3333"
+        }
+      ]
+    },
+    {
+      "provisionerName": "AT\u0026T Maestro® Max",
+      "UUID": "7162ECEE-64C8-48E3-822A-3808D823B1CF",
+      "allocatedUnicastRange": [
+        {
+          "lowAddress": "199B",
+          "highAddress": "3333"
+        }
+      ],
+      "allocatedGroupRange": [
+        {
+          "lowAddress": "CC9B",
+          "highAddress": "D933"
+        }
+      ],
+      "allocatedSceneRange": [
+        {
+          "firstScene": "3334",
+          "lastScene": "6666"
+        }
+      ]
+    },
+    {
+      "provisionerName": "AT\u0026T Maestro® Max",
+      "UUID": "68AF8BEE-B385-4F1A-ABE9-A2C9E5AA46E9",
+      "allocatedUnicastRange": [
+        {
+          "lowAddress": "3334",
+          "highAddress": "4CCC"
+        }
+      ],
+      "allocatedGroupRange": [
+        {
+          "lowAddress": "D934",
+          "highAddress": "E5CC"
+        }
+      ],
+      "allocatedSceneRange": [
+        {
+          "firstScene": "6667",
+          "lastScene": "9999"
+        }
+      ]
+    },
+    {
+      "provisionerName": "AT\u0026T Maestro® Max",
+      "UUID": "9625D65B-0F8D-436E-8440-D8C49431EB57",
+      "allocatedUnicastRange": [
+        {
+          "lowAddress": "4CCD",
+          "highAddress": "6665"
+        }
+      ],
+      "allocatedGroupRange": [
+        {
+          "lowAddress": "E5CD",
+          "highAddress": "F265"
+        }
+      ],
+      "allocatedSceneRange": [
+        {
+          "firstScene": "999A",
+          "lastScene": "CCCC"
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "UUID": "6AD95587-AF4C-4F28-977B-340C2CE4D503",
+      "name": "nRF Mesh Provisioner",
+      "deviceKey": "C91B1A3FFC1286048B329449CA9D5FC9",
+      "unicastAddress": "0001",
+      "security": "insecure",
+      "configComplete": true,
+      "features": {
+        "friend": 2,
+        "lowPower": 2,
+        "proxy": 2,
+        "relay": 2
+      },
+      "defaultTTL": 5,
+      "netKeys": [
+        {
+          "index": 0,
+          "updated": false
+        }
+      ],
+      "appKeys": [
+        {
+          "index": 0,
+          "updated": false
+        },
+        {
+          "index": 1,
+          "updated": false
+        },
+        {
+          "index": 2,
+          "updated": false
+        }
+      ],
+      "elements": [
+        {
+          "name": "Element: 0x0001",
+          "index": 0,
+          "location": "0000",
+          "models": [
+            {
+              "modelId": "0001",
+              "bind": [],
+              "subscribe": []
+            }
+          ]
+        }
+      ],
+      "excluded": false
+    }
+  ],
+  "groups": [
+    {
+      "name": "Mesh Group",
+      "address": "C000",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "D934",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "D935",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "D936",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "EA57D9F1975D4EBDA78A37D189AC58F4",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "D937",
+      "parentAddress": "0000"
+    },
+    {
+      "name": "Mesh Group",
+      "address": "D938",
+      "parentAddress": "0000"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "6667"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "6668"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "6669"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666A"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666B"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666C"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666D"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666E"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "666F"
+    },
+    {
+      "name": "nRF Scene",
+      "addresses": [],
+      "number": "6670"
+    }
+  ],
+  "networkExclusions": []
+}

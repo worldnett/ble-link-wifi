@@ -1,0 +1,223 @@
+nRF Connect, 2021-12-10
+No name (4A:9E:BD:B0:AE:1A)
+I	03:47:09.989	[Server] Server started
+V	03:47:10.048	Heart Rate (0x180D)
+- Heart Rate Measurement [N] (0x2A37)
+   Client Characteristic Configuration (0x2902)
+- Body Sensor Location [R] (0x2A38)
+- Heart Rate Control Point [W] (0x2A39)
+Unknown Service (0000aaa0-0000-1000-8000-aabbccddeeff)
+- Unknown Characteristic [N R] (0000aaa1-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (0000aab0-0000-1000-8000-aabbccddeeff)
+   Characteristic User Description (0x2901)
+   Characteristic Presentation Format (0x2904)
+- Unknown Characteristic [I W WNR] (0000aaa2-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+User Data (0x181C)
+- First Name [R W] (0x2A8A)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Last Name [R W] (0x2A90)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Gender [R W] (0x2A8C)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Current Time Service (0x1805)
+- Current Time [N R] (0x2A2B)
+   Client Characteristic Configuration (0x2902)
+- Local Time Information [R] (0x2A0F)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+V	03:47:11.029	Connecting to 4A:9E:BD:B0:AE:1A...
+D	03:47:11.030	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	03:47:11.440	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	03:47:11.440	[Server] Device disconnected
+D	03:47:11.440	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+E	03:47:11.468	Error 133 (0x85): GATT ERROR
+I	03:47:11.468	Disconnected
+D	03:47:14.369	gatt.close()
+D	03:47:14.371	wait(200)
+V	03:47:14.572	Connecting to 4A:9E:BD:B0:AE:1A...
+D	03:47:14.572	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	03:47:14.999	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+D	03:47:14.999	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+I	03:47:14.999	[Server] Device disconnected
+E	03:47:15.000	Error 133 (0x85): GATT ERROR
+I	03:47:15.028	Disconnected
+V	03:49:18.236	Updating server database...
+D	03:49:18.236	server.clearServices()
+D	03:49:18.266	server.addService(0000180d-0000-1000-8000-00805f9b34fb)
+D	03:49:18.289	[Server callback] Service 0000180d-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.308	server.addService(0000aaa0-0000-1000-8000-aabbccddeeff)
+D	03:49:18.327	[Server callback] Service 0000aaa0-0000-1000-8000-aabbccddeeff added with status: 0
+D	03:49:18.355	server.addService(0000181c-0000-1000-8000-00805f9b34fb)
+D	03:49:18.374	[Server callback] Service 0000181c-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.393	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	03:49:18.414	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.465	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	03:49:18.483	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.502	server.addService(00001805-0000-1000-8000-00805f9b34fb)
+D	03:49:18.522	[Server callback] Service 00001805-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.547	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	03:49:18.568	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.614	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	03:49:18.633	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.652	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	03:49:18.672	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.722	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	03:49:18.741	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	03:49:18.760	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	03:49:18.779	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+I	03:49:18.799	[Server] Database changed
+V	03:49:18.831	Heart Rate (0x180D)
+- Heart Rate Measurement [N] (0x2A37)
+   Client Characteristic Configuration (0x2902)
+- Body Sensor Location [R] (0x2A38)
+- Heart Rate Control Point [W] (0x2A39)
+Unknown Service (0000aaa0-0000-1000-8000-aabbccddeeff)
+- Unknown Characteristic [N R] (0000aaa1-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (0000aab0-0000-1000-8000-aabbccddeeff)
+   Characteristic User Description (0x2901)
+   Characteristic Presentation Format (0x2904)
+- Unknown Characteristic [I W WNR] (0000aaa2-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+User Data (0x181C)
+- First Name [R W] (0x2A8A)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Last Name [R W] (0x2A90)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Gender [R W] (0x2A8C)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Current Time Service (0x1805)
+- Current Time [N R] (0x2A2B)
+   Client Characteristic Configuration (0x2902)
+- Local Time Information [R] (0x2A0F)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+D	03:59:24.458	gatt.close()
+D	03:59:24.459	wait(200)
+V	03:59:24.661	Connecting to 4A:9E:BD:B0:AE:1A...
+D	03:59:24.661	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	03:59:25.422	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	03:59:25.422	[Server] Device disconnected
+D	03:59:25.422	[Callback] Connection state changed with status: 133 and new state: DISCONNECTED (0)
+E	03:59:25.450	Error 133 (0x85): GATT ERROR
+I	03:59:25.451	Disconnected
+D	03:59:36.114	gatt.close()
+D	03:59:36.122	wait(200)
+V	03:59:36.323	Connecting to 4A:9E:BD:B0:AE:1A...
+D	03:59:36.323	gatt = device.connectGatt(autoConnect = true, TRANSPORT_LE, preferred PHY = LE 1M)
+V	04:00:47.599	Updating server database...
+D	04:00:47.599	server.clearServices()
+D	04:00:47.645	server.addService(0000180d-0000-1000-8000-00805f9b34fb)
+D	04:00:47.664	[Server callback] Service 0000180d-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:47.682	server.addService(0000aaa0-0000-1000-8000-aabbccddeeff)
+D	04:00:47.702	[Server callback] Service 0000aaa0-0000-1000-8000-aabbccddeeff added with status: 0
+D	04:00:47.722	server.addService(0000181c-0000-1000-8000-00805f9b34fb)
+D	04:00:47.741	[Server callback] Service 0000181c-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:47.759	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	04:00:47.779	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:47.888	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	04:00:47.906	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:47.926	server.addService(00001805-0000-1000-8000-00805f9b34fb)
+D	04:00:47.944	[Server callback] Service 00001805-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:47.965	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	04:00:47.983	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:48.029	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	04:00:48.049	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:48.068	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	04:00:48.088	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:48.142	server.addService(00001803-0000-1000-8000-00805f9b34fb)
+D	04:00:48.161	[Server callback] Service 00001803-0000-1000-8000-00805f9b34fb added with status: 0
+D	04:00:48.180	server.addService(00000000-0000-1000-8000-00805f9b34fb)
+D	04:00:48.199	[Server callback] Service 00000000-0000-1000-8000-00805f9b34fb added with status: 0
+I	04:00:48.221	[Server] Database changed
+V	04:00:48.275	Heart Rate (0x180D)
+- Heart Rate Measurement [N] (0x2A37)
+   Client Characteristic Configuration (0x2902)
+- Body Sensor Location [R] (0x2A38)
+- Heart Rate Control Point [W] (0x2A39)
+Unknown Service (0000aaa0-0000-1000-8000-aabbccddeeff)
+- Unknown Characteristic [N R] (0000aaa1-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (0000aab0-0000-1000-8000-aabbccddeeff)
+   Characteristic User Description (0x2901)
+   Characteristic Presentation Format (0x2904)
+- Unknown Characteristic [I W WNR] (0000aaa2-0000-1000-8000-aabbccddeeff)
+   Client Characteristic Configuration (0x2902)
+User Data (0x181C)
+- First Name [R W] (0x2A8A)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Last Name [R W] (0x2A90)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Gender [R W] (0x2A8C)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Current Time Service (0x1805)
+- Current Time [N R] (0x2A2B)
+   Client Characteristic Configuration (0x2902)
+- Local Time Information [R] (0x2A0F)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I N R W WNR] (00000000-0000-1000-8000-00805f9b34fb)
+   Client Characteristic Configuration (0x2902)
+   Unknown Descriptor (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+Link Loss (0x1803)
+- Alert Level [R W] (0x2A06)
+Unknown Service (00000000-0000-1000-8000-00805f9b34fb)
+D	04:01:12.818	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	04:01:12.818	[Server] Device with address 4A:9E:BD:B0:AE:1A connected
+D	04:01:12.824	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	04:01:12.824	Connected to 4A:9E:BD:B0:AE:1A
+V	04:01:12.824	Requesting new MTU...
+D	04:01:12.824	gatt.requestMtu(517)
+D	04:01:12.869	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+D	04:01:18.570	[Callback] Connection state changed with status: 8 and new state: DISCONNECTED (0)
+D	04:01:18.570	[Server callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	04:01:18.570	[Server] Device disconnected
+E	04:01:18.570	Error 8 (0x8): GATT CONN TIMEOUT
+I	04:01:18.570	Disconnected
+D	04:01:18.635	[Broadcast] Action received: android.bluetooth.device.action.ACL_DISCONNECTED
+D	04:01:41.714	gatt.close()
+D	04:01:41.771	wait(200)

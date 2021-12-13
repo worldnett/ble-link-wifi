@@ -1,0 +1,6 @@
+<server-configuration name="G-net">
+   <service configure="HEART_RATE"/>
+   <service configure="HEART_RATE"/>
+   <service configure="LINK_LOSS"/>
+   <service configure="IMMEDIATE_ALERT"/>
+</server-configuration>

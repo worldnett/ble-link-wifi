@@ -1,0 +1,116 @@
+nRF Connect, 2021-12-09
+No name (4A:9E:BD:B0:AE:1A)
+V	19:22:10.009	Connecting to 4A:9E:BD:B0:AE:1A...
+D	19:22:10.009	gatt = device.connectGatt(autoConnect = false, TRANSPORT_LE, preferred PHY = LE 1M)
+D	19:22:10.657	[Callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+I	19:22:10.657	Connected to 4A:9E:BD:B0:AE:1A
+D	19:22:10.689	[Broadcast] Action received: android.bluetooth.device.action.ACL_CONNECTED
+V	19:22:10.692	Discovering services...
+D	19:22:10.692	gatt.discoverServices()
+I	19:22:11.094	Connection parameters updated (interval: 7.5ms, latency: 0, timeout: 5000ms)
+D	19:22:12.585	[Callback] Services discovered with status: 0
+I	19:22:12.585	Services discovered
+V	19:22:12.638	Generic Access (0x1800)
+- Device Name [R] (0x2A00)
+- Appearance [R] (0x2A01)
+Generic Attribute (0x1801)
+- Service Changed [I] (0x2A05)
+   Client Characteristic Configuration (0x2902)
+Unknown Service (7365a0ae-e596-129d-d84a-88db1ffbcc04)
+- Unknown Characteristic [I R] (ddbb8ffd-d1b6-bbb5-0f47-87a23630038b)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R W] (1c7cfacb-7818-c09c-9345-04602070e0cc)
+   Characteristic User Description (0x2901)
+Unknown Service (0000fe78-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I R] (262040ed-6f79-41bb-b657-bff4cb49195a)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (17d096e0-ea1f-11e5-9dbc-0002a5d5c51b)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (58633f16-5cad-46bd-978d-fa0ad01a45ea)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [I R] (0e9a6052-722d-4fcf-b8b7-1b9e2c33617d)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (380c09f8-9665-417a-bb2b-06cb6a76e784)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [N R] (8fe0b1c0-ea32-11e5-a4fc-0002a5d5c51b)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [I R] (73fd8f50-626c-4f9b-a52e-b1d226efcf8d)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+Unknown Service (0000fdb4-0000-1000-8000-00805f9b34fb)
+- Unknown Characteristic [I R] (f5fe7b6c-555b-4627-befe-914af6894519)
+   Client Characteristic Configuration (0x2902)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [W] (776f71f0-91aa-4aaf-8d02-c577a378a301)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (e3e03e12-b51a-4834-836a-916a34e4bc36)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (19065dfb-dd4d-47d4-95ca-3fe870e2a193)
+   Characteristic User Description (0x2901)
+- Unknown Characteristic [R] (4a21865e-6316-4117-98a1-caabe26e49c8)
+   Characteristic User Description (0x2901)
+D	19:22:12.638	gatt.setCharacteristicNotification(00002a05-0000-1000-8000-00805f9b34fb, true)
+D	19:22:12.641	gatt.setCharacteristicNotification(ddbb8ffd-d1b6-bbb5-0f47-87a23630038b, true)
+D	19:22:12.644	gatt.setCharacteristicNotification(262040ed-6f79-41bb-b657-bff4cb49195a, true)
+D	19:22:12.646	gatt.setCharacteristicNotification(0e9a6052-722d-4fcf-b8b7-1b9e2c33617d, true)
+D	19:22:12.648	gatt.setCharacteristicNotification(8fe0b1c0-ea32-11e5-a4fc-0002a5d5c51b, true)
+D	19:22:12.651	gatt.setCharacteristicNotification(73fd8f50-626c-4f9b-a52e-b1d226efcf8d, true)
+D	19:22:12.654	gatt.setCharacteristicNotification(f5fe7b6c-555b-4627-befe-914af6894519, true)
+I	19:22:12.694	Connection parameters updated (interval: 60.0ms, latency: 0, timeout: 5000ms)
+V	19:22:17.988	Reading characteristic 00002a00-0000-1000-8000-00805f9b34fb
+D	19:22:17.988	gatt.readCharacteristic(00002a00-0000-1000-8000-00805f9b34fb)
+I	19:22:18.203	Read Response received from 00002a00-0000-1000-8000-00805f9b34fb, value: (0x) 48-50-20-4F-66-66-69-63-65-4A-65-74-20-50-72-6F-20-38-30-32-30-20-73-65-72-69-65-73, "HP OfficeJet Pro 8020 series"
+A	19:22:18.203	"HP OfficeJet Pro 8020 series" received
+V	19:22:24.868	Reading characteristic 00002a00-0000-1000-8000-00805f9b34fb
+D	19:22:24.868	gatt.readCharacteristic(00002a00-0000-1000-8000-00805f9b34fb)
+I	19:22:25.102	Read Response received from 00002a00-0000-1000-8000-00805f9b34fb, value: (0x) 48-50-20-4F-66-66-69-63-65-4A-65-74-20-50-72-6F-20-38-30-32-30-20-73-65-72-69-65-73, "HP OfficeJet Pro 8020 series"
+A	19:22:25.102	"HP OfficeJet Pro 8020 series" received
+V	19:22:26.009	Reading characteristic 00002a01-0000-1000-8000-00805f9b34fb
+D	19:22:26.009	gatt.readCharacteristic(00002a01-0000-1000-8000-00805f9b34fb)
+I	19:22:26.122	Read Response received from 00002a01-0000-1000-8000-00805f9b34fb, value: (0x) 00-00
+A	19:22:26.122	"[0] Unknown" received
+V	19:22:31.068	Reading characteristic ddbb8ffd-d1b6-bbb5-0f47-87a23630038b
+D	19:22:31.068	gatt.readCharacteristic(ddbb8ffd-d1b6-bbb5-0f47-87a23630038b)
+I	19:22:31.222	Read Response received from ddbb8ffd-d1b6-bbb5-0f47-87a23630038b, value: 0 bytes
+V	19:22:32.723	Enabling indications for ddbb8ffd-d1b6-bbb5-0f47-87a23630038b
+D	19:22:32.723	gatt.setCharacteristicNotification(ddbb8ffd-d1b6-bbb5-0f47-87a23630038b, true)
+D	19:22:32.724	gatt.writeDescriptor(00002902-0000-1000-8000-00805f9b34fb, value=0x0200)
+I	19:22:32.902	Data written to descr. 00002902-0000-1000-8000-00805f9b34fb, value: (0x) 02-00
+A	19:22:32.902	"Indications enabled" sent
+V	19:22:32.921	Indications enabled for ddbb8ffd-d1b6-bbb5-0f47-87a23630038b
+V	19:22:33.815	Reading descriptor 00002902-0000-1000-8000-00805f9b34fb
+D	19:22:33.815	gatt.readDescriptor(00002902-0000-1000-8000-00805f9b34fb)
+I	19:22:33.922	Read Response received from descr. 00002902-0000-1000-8000-00805f9b34fb, value: (0x) 02-00
+A	19:22:33.922	"Indications enabled" received
+V	19:22:37.169	Reading descriptor 00002901-0000-1000-8000-00805f9b34fb
+D	19:22:37.169	gatt.readDescriptor(00002901-0000-1000-8000-00805f9b34fb)
+I	19:22:37.402	Read Response received from descr. 00002901-0000-1000-8000-00805f9b34fb, value: (0x) 53-63-61-6E-20-52-65-73-75-6C-74, "Scan Result"
+A	19:22:37.402	"Scan Result" received
+V	19:22:40.210	Reading characteristic 1c7cfacb-7818-c09c-9345-04602070e0cc
+D	19:22:40.210	gatt.readCharacteristic(1c7cfacb-7818-c09c-9345-04602070e0cc)
+I	19:22:40.342	Read Response received from 1c7cfacb-7818-c09c-9345-04602070e0cc, value: 0 bytes
+V	19:22:41.883	Reading descriptor 00002901-0000-1000-8000-00805f9b34fb
+D	19:22:41.883	gatt.readDescriptor(00002901-0000-1000-8000-00805f9b34fb)
+I	19:22:42.262	Read Response received from descr. 00002901-0000-1000-8000-00805f9b34fb, value: (0x) 43-6F-6E-74-72-6F-6C-20-50-6F-69-6E-74, "Control Point"
+A	19:22:42.262	"Control Point" received
+I	19:25:12.699	[Server] Server started
+V	19:25:12.753	[Server] Creating services...
+I	19:25:12.773	[Server] Database changed
+D	19:25:12.773	[Server callback] Connection state changed with status: 0 and new state: CONNECTED (2)
+V	19:25:12.791	[Server] No services
+I	19:25:12.791	[Server] Device with address 4A:9E:BD:B0:AE:1A connected
+V	19:25:12.819	[Server] Cancelling server connection...
+D	19:25:12.819	server.cancelConnection(device)
+V	19:25:12.840	Disconnecting...
+D	19:25:12.841	gatt.disconnect()
+D	19:25:12.863	server.clearServices()
+D	19:25:12.864	server.close()
+D	19:25:12.864	[Callback] Connection state changed with status: 0 and new state: DISCONNECTED (0)
+I	19:25:12.864	Disconnected
+I	19:25:12.866	[Server] Server closed
+D	19:25:12.921	gatt.close()
+D	19:25:12.944	wait(200)
